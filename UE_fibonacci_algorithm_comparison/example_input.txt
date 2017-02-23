@@ -1,0 +1,7 @@
+python3 fibonacci_speedcomparison.py 35
+
+# Allgemeine Formulierung:
+# python3 fibonacci_speedcomparison.py n
+
+# Befehl muss im Ordner, in dem sich Python- und R- Skript befinden, ausgeführt werden
+# um die Grafik sofort zu öffnen
