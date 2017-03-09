@@ -42,13 +42,16 @@ def CompareSpeed(n,  func1, func2):
     # Initiale Zeitberechnung entfernt Bias bei erstmaliger Berechnung via datetime.now()
     datetime.now()
 
+
+    print("\nRecursive:")
     start = datetime.now()
-    num1 = func1(n, 1, 3)
+    func1(n, 1, 3)
     end = datetime.now()
     speed1 = end - start
 
+    print("\nNon-recursive:")
     start = datetime.now()
-    num2 = func2(n)
+    func2(n)
     end = datetime.now()
     speed2 = end - start
 
@@ -59,27 +62,23 @@ def CompareSpeed(n,  func1, func2):
         total_time1 = speed1
         total_time2 = speed2
 
-    # Ueberpruefen der Ergebiskonsistenz
-    if num1 == num2:
-        return [n, num1, speed1, speed2]
-    else:
-        print("Calculation error!")
+    return [n, speed1, speed2]
 
 
 n = int(sys.argv[1])
 r_input = open("r_input.csv", "w")
 
-print("n  Fibonacci number     t(Recursive)    t(Lookup table)   (times in h:m:s)")
-
 for i in range(1, n + 1):
     speed_output = CompareSpeed(i, RecursiveHanoi, NonRecursiveHanoi)
 
     # Bash Output
-    print("{0[0]}\t{0[1]}\t\t{0[2]}\t{0[3]}".format(speed_output))
+    print("\nNumber of discs\tt(Recursive)\tt(Non-recursive)")
+    print("{0[0]}\t\t{0[1]}\t{0[2]}".format(speed_output))
+    print("=================================================\n")
 
     # Erstellen des R-Inputs
-    secs1 = speed_output[2].total_seconds()
-    secs2 = speed_output[3].total_seconds()
+    secs1 = speed_output[1].total_seconds()
+    secs2 = speed_output[2].total_seconds()
     r_input.write("{0[0]},{1:.6f},{2:.6f}\n".format(speed_output, secs1, secs2))
 
 print("Total time:     \t{}\t{}".format(total_time1, total_time2))

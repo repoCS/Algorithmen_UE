@@ -1,0 +1,159 @@
+Recursive:
+Moving disk from tower 1 to tower 3.
+
+Non-recursive:
+Moving disk from tower 1 to tower 3.
+
+Number of discs	t(Recursive)	t(Non-recursive)
+1		0:00:00.000014	0:00:00.000017
+=================================================
+
+
+Recursive:
+Moving disk from tower 1 to tower 2.
+Moving disk from tower 1 to tower 3.
+Moving disk from tower 2 to tower 3.
+
+Non-recursive:
+Moving disk from tower 1 to tower 2.
+Moving disk from tower 1 to tower 3.
+Moving disk from tower 2 to tower 3.
+
+Number of discs	t(Recursive)	t(Non-recursive)
+2		0:00:00.000022	0:00:00.000025
+=================================================
+
+
+Recursive:
+Moving disk from tower 1 to tower 3.
+Moving disk from tower 1 to tower 2.
+Moving disk from tower 3 to tower 2.
+Moving disk from tower 1 to tower 3.
+Moving disk from tower 2 to tower 1.
+Moving disk from tower 2 to tower 3.
+Moving disk from tower 1 to tower 3.
+
+Non-recursive:
+Moving disk from tower 1 to tower 3.
+Moving disk from tower 1 to tower 2.
+Moving disk from tower 3 to tower 2.
+Moving disk from tower 1 to tower 3.
+Moving disk from tower 2 to tower 1.
+Moving disk from tower 2 to tower 3.
+Moving disk from tower 1 to tower 3.
+
+Number of discs	t(Recursive)	t(Non-recursive)
+3		0:00:00.000036	0:00:00.000043
+=================================================
+
+
+Recursive:
+Moving disk from tower 1 to tower 2.
+Moving disk from tower 1 to tower 3.
+Moving disk from tower 2 to tower 3.
+Moving disk from tower 1 to tower 2.
+Moving disk from tower 3 to tower 1.
+Moving disk from tower 3 to tower 2.
+Moving disk from tower 1 to tower 2.
+Moving disk from tower 1 to tower 3.
+Moving disk from tower 2 to tower 3.
+Moving disk from tower 2 to tower 1.
+Moving disk from tower 3 to tower 1.
+Moving disk from tower 2 to tower 3.
+Moving disk from tower 1 to tower 2.
+Moving disk from tower 1 to tower 3.
+Moving disk from tower 2 to tower 3.
+
+Non-recursive:
+Moving disk from tower 1 to tower 2.
+Moving disk from tower 1 to tower 3.
+Moving disk from tower 2 to tower 3.
+Moving disk from tower 1 to tower 2.
+Moving disk from tower 3 to tower 1.
+Moving disk from tower 3 to tower 2.
+Moving disk from tower 1 to tower 2.
+Moving disk from tower 1 to tower 3.
+Moving disk from tower 2 to tower 3.
+Moving disk from tower 2 to tower 1.
+Moving disk from tower 3 to tower 1.
+Moving disk from tower 2 to tower 3.
+Moving disk from tower 1 to tower 2.
+Moving disk from tower 1 to tower 3.
+Moving disk from tower 2 to tower 3.
+
+Number of discs	t(Recursive)	t(Non-recursive)
+4		0:00:00.000075	0:00:00.000086
+=================================================
+
+
+Recursive:
+Moving disk from tower 1 to tower 3.
+Moving disk from tower 1 to tower 2.
+Moving disk from tower 3 to tower 2.
+Moving disk from tower 1 to tower 3.
+Moving disk from tower 2 to tower 1.
+Moving disk from tower 2 to tower 3.
+Moving disk from tower 1 to tower 3.
+Moving disk from tower 1 to tower 2.
+Moving disk from tower 3 to tower 2.
+Moving disk from tower 3 to tower 1.
+Moving disk from tower 2 to tower 1.
+Moving disk from tower 3 to tower 2.
+Moving disk from tower 1 to tower 3.
+Moving disk from tower 1 to tower 2.
+Moving disk from tower 3 to tower 2.
+Moving disk from tower 1 to tower 3.
+Moving disk from tower 2 to tower 1.
+Moving disk from tower 2 to tower 3.
+Moving disk from tower 1 to tower 3.
+Moving disk from tower 2 to tower 1.
+Moving disk from tower 3 to tower 2.
+Moving disk from tower 3 to tower 1.
+Moving disk from tower 2 to tower 1.
+Moving disk from tower 2 to tower 3.
+Moving disk from tower 1 to tower 3.
+Moving disk from tower 1 to tower 2.
+Moving disk from tower 3 to tower 2.
+Moving disk from tower 1 to tower 3.
+Moving disk from tower 2 to tower 1.
+Moving disk from tower 2 to tower 3.
+Moving disk from tower 1 to tower 3.
+
+Non-recursive:
+Moving disk from tower 1 to tower 3.
+Moving disk from tower 1 to tower 2.
+Moving disk from tower 3 to tower 2.
+Moving disk from tower 1 to tower 3.
+Moving disk from tower 2 to tower 1.
+Moving disk from tower 2 to tower 3.
+Moving disk from tower 1 to tower 3.
+Moving disk from tower 1 to tower 2.
+Moving disk from tower 3 to tower 2.
+Moving disk from tower 3 to tower 1.
+Moving disk from tower 2 to tower 1.
+Moving disk from tower 3 to tower 2.
+Moving disk from tower 1 to tower 3.
+Moving disk from tower 1 to tower 2.
+Moving disk from tower 3 to tower 2.
+Moving disk from tower 1 to tower 3.
+Moving disk from tower 2 to tower 1.
+Moving disk from tower 2 to tower 3.
+Moving disk from tower 1 to tower 3.
+Moving disk from tower 1 to tower 2.
+Moving disk from tower 3 to tower 2.
+Moving disk from tower 3 to tower 1.
+Moving disk from tower 2 to tower 1.
+Moving disk from tower 3 to tower 2.
+Moving disk from tower 1 to tower 3.
+Moving disk from tower 1 to tower 2.
+Moving disk from tower 3 to tower 2.
+Moving disk from tower 1 to tower 3.
+Moving disk from tower 2 to tower 1.
+Moving disk from tower 2 to tower 3.
+Moving disk from tower 1 to tower 3.
+
+Number of discs	t(Recursive)	t(Non-recursive)
+5		0:00:00.000153	0:00:00.000167
+=================================================
+
+Total time:     	0:00:00.000300	0:00:00.000338
